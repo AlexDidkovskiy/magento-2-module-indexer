@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Indexer/etc/indexer.xsd">
+    <indexer
+            id="echoecho_product_fragile"
+            view_id="echoecho_product_fragile_mview"
+            class="{{ indexer_class, e.g. Pg\Catalog\Model\Indexer\Product\Codes }}">
+        <title>PG Product Codes</title>
+        <description>Allow to compute product codes for Parent and Children</description>
+    </indexer>
+</config>
