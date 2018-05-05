@@ -2,7 +2,17 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Catalog\Model\ProductRepository">
         <plugin name="MagentoCatalogProductRepositoryFragileAttribute"
-                type="Echoecho\Indexer\Plugin\Magento\Catalog\Model\ProductRepository"
+                type="EchoEcho\Indexer\Plugin\Magento\Catalog\Model\ProductRepository"
                 sortOrder="1" />
+    </type>
+    <type name="Magento\Catalog\Model\Product\Action">
+        <plugin name="MagentoCatalogProductActionFragileIndexer"
+                type="EchoEcho\Indexer\Plugin\Magento\Catalog\Model\Product\Action"
+                sortOrder="1" />
+    </type>
+    <type name="Magento\Catalog\Model\ResourceModel\Product">
+        <plugin name="MagentoCatalogProductResourceFragileIndexer"
+                type="EchoEcho\Indexer\Plugin\Magento\Catalog\Model\ResourceModel\Product"
+                sortOrder="2" />
     </type>
 </config>

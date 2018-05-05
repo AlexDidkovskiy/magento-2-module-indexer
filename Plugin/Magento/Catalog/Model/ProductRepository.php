@@ -1,5 +1,5 @@
 <?php
-namespace Echoecho\Indexer\Plugin\Magento\Catalog\Model;
+namespace EchoEcho\Indexer\Plugin\Magento\Catalog\Model;
 
 use Magento\Catalog\Api\Data\ProductSearchResultsInterface;
 use Magento\Catalog\Model\ProductRepository as Subject;

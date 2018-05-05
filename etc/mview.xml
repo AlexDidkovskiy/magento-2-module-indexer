@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Mview/etc/mview.xsd">
+    <view
+            id="echoecho_product_fragile_mview"
+            class="EchoEcho\Indexer\Model\Indexer\Product\IsFragile"
+            group="indexer">
+        <subscriptions>
+            <table name="catalog_product_entity" entity_column="entity_id" />
+            <table name="catalog_product_entity_int" entity_column="entity_id" />
+        </subscriptions>
+    </view>
+</config>

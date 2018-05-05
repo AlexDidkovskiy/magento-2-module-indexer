@@ -53,7 +53,7 @@ class InstallData implements InstallDataInterface
         $attributeProperties = [
             'global' => ScopedAttributeInterface::SCOPE_GLOBAL,
             'visible' => true,
-            'label'  => IsFragile::IS_FRAGILE,
+            'label'  => 'Fragile',
             'type' => 'int',
             'input' => 'boolean',
             'visible_on_front' => true,

@@ -3,8 +3,8 @@
     <indexer
             id="echoecho_product_fragile"
             view_id="echoecho_product_fragile_mview"
-            class="{{ indexer_class, e.g. Pg\Catalog\Model\Indexer\Product\Codes }}">
-        <title>PG Product Codes</title>
-        <description>Allow to compute product codes for Parent and Children</description>
+            class="EchoEcho\Indexer\Model\Indexer\Product\IsFragile">
+        <title>Product fragile indexer</title>
+        <description>Keeps list of products with fragile attribute</description>
     </indexer>
 </config>
