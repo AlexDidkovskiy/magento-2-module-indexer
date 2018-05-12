@@ -15,4 +15,9 @@
                 type="EchoEcho\Indexer\Plugin\Magento\Catalog\Model\ResourceModel\Product"
                 sortOrder="2" />
     </type>
+    <type name="Magento\CatalogSearch\Model\Layer\Category\ItemCollectionProvider">
+        <plugin name="MagentoCatalogSearchProductCollectionFragile"
+                type="EchoEcho\Indexer\Plugin\Magento\CatalogSearch\Model\Layer\Category\ItemCollectionProvider"
+                sortOrder="2" />
+    </type>
 </config>

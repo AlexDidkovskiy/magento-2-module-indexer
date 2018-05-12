@@ -3,6 +3,7 @@
     <module name="EchoEcho_Indexer" setup_version="1.0.0">
         <sequence>
             <module name="Magento_Catalog"/>
+            <module name="Magento_CatalogSearch"/>
             <module name="Magento_Eav"/>
         </sequence>
     </module>
